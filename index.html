@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="./imagens/icon-folha.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Teste-Diet System</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="li-personalizado">Editar perfil</li>
+            <li>E-mails automáticos</li>
+            <li>Locais de atendimento</li>
+        </ul>
+    </nav>
+
+    <div>
+        <div class="id-nutri">
+            <h3>Chef Foker</h3>
+            <p>Registro Profissional</p>
+            <div class="linha"></div>
+            <img src="./imagens/assinatura.png"> 
+        </div>
+            <div class="formulario">
+                <form method="POST">
+                    <div class="conteudo-form">
+                        <div class="form-unico">
+                            <label>Nome completo</label>
+                            <input type="text" placeholder="" />
+                        </div>
+                    </div>
+                        <div class="form-unico">
+                            <label>E-mail</label>
+                            <input type="text" placeholder="" />
+                        </div>
+
+                        <div class="form-unico">
+                            <label>Registro profissional</label>
+                            <input type="text" placeholder="" />
+                        </div>
+                        <div class="form-unico">
+                            <label>Contato profissional</label>
+                            <input type="text" name="telefone" id="telefone" maxlength="15" />  
+                        </div>
+                        <div class="form-unico">
+                            <label>Endereço</label>
+                            <input type="name" placeholder="" />
+                        </div>
+                        <div class="form-unico">
+                            <label>CEP</label>
+                            <input type="text1" placeholder="" />
+                        </div>
+                        <div class="form-unico">
+                            <label>Estado</label>
+                            <input type="text1" placeholder="" />
+                        </div>
+                        <div class="form-unico">
+                            <label>Cidade</label>
+                            <input type="text1" placeholder="" />
+                        </div>
+                </form>
+            </div>    
+        <div class="alterar-senha">
+            <h4>Alterar senha</h4>
+            <form name="formuser" method="POST">
+                <div class="form-unico2">
+                    <label>Digite sua senha</label>
+                    <input type="password" name="senha" id="senha" >
+                    <input type="checkbox" onclick="mostrarSenha()">Mostrar senha
+                </div>
+                <div class="form-unico2">
+                    <label>Confirme sua senha</label>
+                    <input type="password" name="rep_senha" id="rep_senha" >
+                    <input type="checkbox" onclick="mostrarSenha2()">Mostrar senha
+                </div>
+                
+            </form>
+            <p class="p-alterar-senha">Password Strength</p>
+            <div class="linha2"></div><br>
+            <div class="forca-senha">
+                <ul>
+                    <li> 1 lowercase & 1 uppercase</li> 
+                    <li> 1 number (0-9)</li>
+                    <li> 1 Special Character (!@#$%^&*)</li>
+                    <li> Atleast 8 Character</li>
+                </ul>
+               </div>
+               <button onclick="return validar();" >Salvar e alterar senha</button>
+               
+            <script src="./js/script.js"></script>
+</body>         
+</html>

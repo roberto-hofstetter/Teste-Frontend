@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+	
+}
+
+html,body{
+	height: 100%;
+}
+
+
+.clear{
+	clear: both;
+}
+nav {
+
+    margin-top: 20px;
+    margin-left: 80px;
+   
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 40px;
+    text-align: center;
+    
+}
+nav li {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.li-personalizado{
+    font-weight: bold; 
+    color: #47cf73;
+    border: 1px solid #47cf73; 
+    padding: 10px;
+    border-bottom-width:0;
+}
+
+div{
+    display: inline-block;
+    margin-top: 20px;
+   
+   
+}
+.id-nutri{
+    width: 450px;
+    height: 400px;
+    position: relative;
+    bottom:500px;
+    left: 20px;
+    background-image: url('../imagens/perfil.png');
+    background-repeat: no-repeat;
+    background-size: 30% 30%;
+    background-position-x: center;
+    background-position-y: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+h3{
+    text-align: center;
+    position: relative;
+    top:150px;
+    
+}
+p{
+    position: relative;
+    top:150px;
+    text-align: center;
+    font-size: 15px;
+    color: #ccc;
+}
+.linha{
+    border: 1px solid #ccc;
+    width: 400px;
+    height: 1px;
+    position: relative;
+    top:130px;
+    left: 20px;
+    
+}
+
+img{
+    width: 180px;
+    position: relative;
+    top:150px; 
+    left: 140px; 
+    
+}
+
+.formulario {
+    width: 820px;
+    height: 400px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+    top:0;
+    left: 30px;
+
+}
+.conteudo-form{
+    padding-top: 346px;
+    
+}
+.form-unico{
+   position: relative;
+   bottom:350px;
+   left: 20px;
+}
+label {
+    display:block; 
+    font-size: 15px;
+}
+
+input[type="text"] { 
+   display:block; 
+   border-radius: 5px;
+   background-color: #f4f4f6ff;
+   border:none;
+   outline: none;
+   height: 30px;
+   width: 370px;
+}
+input[type="name"] { 
+    display:block; 
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    background-color:#f4f4f6ff;
+    height: 30px;
+    width: 750px;
+ }
+ input[type="text1"] { 
+    display:block; 
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    background-color:#f4f4f6ff;
+    height: 30px;
+    width: 248px;
+ }
+
+.alterar-senha{
+    width: 820px;
+    height: 400px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+    left: 490px;
+    bottom:450px;
+
+}
+.alterar-senha h4{
+    margin-top: 20px;
+    margin-left: 20px;
+    color:grey;
+}
+.form-unico2{
+  margin-left: 20px;
+}
+.form-unico2 input[type="password"] { 
+    display:block; 
+    border-radius: 5px;
+    background-color: #f4f4f6ff;
+    border:none;
+    outline: none;
+    height: 30px;
+    width: 370px;
+ }
+.p-alterar-senha{
+  position: relative;
+  top:20px;
+  left: 20px;
+  text-align: left;
+  color: black;
+}
+.linha2{
+    position: relative;
+    top:0;
+    bottom: 50px;
+    left: 20px;
+    border: 1px solid #ccc;
+    width: 400px;
+    height: 1px;
+}
+.forca-senha{
+    margin-left: 40px;
+}
+
+.forca-senha ul {
+    list-style-image: url('../imagens/icon-folha.png');
+    margin-right: 5px;
+}
+button{
+    position: relative;
+    top:40px;
+    left: 30px;
+    width: 220px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #47cf73; 
+    border:none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-image: url('../imagens/carregando.png');
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+    background-position-x: 5px;
+    
+}
+
