@@ -5,12 +5,14 @@
  <a href="#objetivo">Sobre</a> •
  <a href="#roadmap">Instalaçao</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
+ <a href="#autor">Autora</a>
 </p>
 <h4 align="center"> 
 🚀 Finalizado.
 </h4>
+
+### 📌 Sobre 
+Esse projeto foi desenvolvido para uma vaga de estágio em desenvolvimento front-end. Tive algumas dificuldades com o posicionamento das divs e com as validações dos campos em Javascript, mas consegui vencer essas realidades.
 
 ### 🏁 Instalação
 
@@ -22,7 +24,7 @@ Clone este repositório usando git clonehttps:https://github.com/Leticiafrnc/Tes
 As seguintes ferramentas foram usadas na construção do projeto:
 -HTML
 -Css
-_Javascript
+-Javascript
 
 ### ✏ Autora
 ---
