@@ -3,14 +3,10 @@
 	padding: 0;
 	box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-	
 }
-
 html,body{
 	height: 100%;
 }
-
-
 .clear{
 	clear: both;
 }
@@ -18,20 +14,17 @@ nav {
 
     margin-top: 20px;
     margin-left: 80px;
-   
 }
 nav ul {
     list-style-type: none;
     padding: 0 40px;
     text-align: center;
-    
 }
 nav li {
     display: inline-block;
     margin-left: 30px;
     font-size: 15px;
 }
-
 .li-personalizado{
     font-weight: bold; 
     color: #47cf73;
@@ -39,12 +32,9 @@ nav li {
     padding: 10px;
     border-bottom-width:0;
 }
-
 div{
     display: inline-block;
-    margin-top: 20px;
-   
-   
+    margin-top: 20px; 
 }
 .id-nutri{
     width: 450px;
@@ -58,13 +48,14 @@ div{
     background-position-x: center;
     background-position-y: 30px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
+    -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    rgba(149, 157, 165, 0.2) 0px 8px 24px;  /* Firefox 3.5 - 3.6 */
 
+}
 h3{
     text-align: center;
     position: relative;
-    top:150px;
-    
+    top:150px; 
 }
 p{
     position: relative;
@@ -79,30 +70,27 @@ p{
     height: 1px;
     position: relative;
     top:130px;
-    left: 20px;
-    
+    left: 20px;  
 }
-
 img{
     width: 180px;
     position: relative;
     top:150px; 
     left: 140px; 
-    
 }
-
 .formulario {
     width: 820px;
     height: 400px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    rgba(149, 157, 165, 0.2) 0px 8px 24px;  /* Firefox 3.5 - 3.6 */
+
     position: relative;
     top:0;
     left: 30px;
-
 }
 .conteudo-form{
     padding-top: 346px;
-    
 }
 .form-unico{
    position: relative;
@@ -113,7 +101,6 @@ label {
     display:block; 
     font-size: 15px;
 }
-
 input[type="text"] { 
    display:block; 
    border-radius: 5px;
@@ -141,15 +128,17 @@ input[type="name"] {
     height: 30px;
     width: 248px;
  }
-
 .alterar-senha{
     width: 820px;
     height: 400px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    rgba(149, 157, 165, 0.2) 0px 8px 24px;  /* Firefox 3.5 - 3.6 */
+
+
     position: relative;
     left: 490px;
     bottom:450px;
-
 }
 .alterar-senha h4{
     margin-top: 20px;
@@ -187,7 +176,6 @@ input[type="name"] {
 .forca-senha{
     margin-left: 40px;
 }
-
 .forca-senha ul {
     list-style-image: url('../imagens/icon-folha.png');
     margin-right: 5px;
@@ -209,7 +197,6 @@ button{
     background-repeat: no-repeat;
     background-position-y: 5px;
     background-position-x: 5px;
-    
 }
 @media only screen and (max-width: 1125px) {
     .id-nutri{
@@ -218,74 +205,48 @@ button{
         position: relative;
         top:10px;
         left: 400px;
-        
     }
-
     .formulario {
       
         position: relative;
         top:50px;
         left: 190px;
-    
     }
-
     .alterar-senha{
         position: relative;
         left: 190px;
         right:100px;
         bottom: 140px;
-    
     }
-    
   }
 
   @media only screen and (max-width: 320px) {
-
     nav {
 
-        width: 100%;
-        display: inline;
-        position: relative;
-        left: 310px;
-       
+      display: none;
     }
     
-    nav li {
-        padding: 0 20px;
-    }
-    
-    .li-personalizado{
-        font-weight: bold; 
-        color: #47cf73;
-        border: 1px solid #47cf73; 
-        padding: 10px;
-        border-bottom-width:0;
-    }
-    
-
     .id-nutri{
-        width: 450px;
-        height: 400px;
+
         position: relative;
         top:10px;
-        left: 300px;
+        left: 200px;
+        
         
     }
-
     .formulario {
       
         position: relative;
         top:50px;
-        left: 80px;
+        left: 0px;
+        
     
     }
-
     .alterar-senha{
         position: relative;
-        left: 80px;
+        left: 0px;
         right:100px;
         bottom: 140px;
-    
     }
     
   }

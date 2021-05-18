@@ -7,22 +7,17 @@ function validar(){
         formuser.senha.focus();
         return false;
     }
-
-   
     if(rep_senha == "" || rep_senha.length <= 5){
         alert('Preencha o campo senha de acordo com os requisitos');
         formuser.rep_senha.focus();
         return false;
     }
-    
     if (senha != rep_senha) {
         alert('Senhas diferentes');
         formuser.senha.focus();
         return false;
     }
-   
 }
-
 function mostrarSenha() {
     let senha = document.getElementById("senha");
     if (senha.type == "password")  {
@@ -32,7 +27,6 @@ function mostrarSenha() {
         senha.type="password"
     }
 }
-
 function mostrarSenha2() {
     let rep_senha = document.getElementById("rep_senha");
     if (rep_senha.type == "password")  {
@@ -42,7 +36,6 @@ function mostrarSenha2() {
         rep_senha.type="password"
     }
 }
-
 function mascara(o,f){
     v_obj=o
     v_fun=f
